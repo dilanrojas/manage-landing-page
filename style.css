@@ -181,6 +181,21 @@ svg {
 }
 
 /* Contents */
+body {
+  position: relative;
+  z-index: -1;
+  background-image:
+    url(/public/bg-tablet-pattern.svg),
+    url(/public/bg-tablet-pattern.svg);
+  background-position: -30rem 68rem, 51rem -16rem;
+  background-repeat: no-repeat;
+}
+@media (max-width: 47em) {
+  body {
+    background-position: 5rem -22rem, 18rem 20rem;
+  }
+}
+
 @media (max-width: 47em) {
   .top-header-container {
     padding-block: var(--size-700)!important;
@@ -496,8 +511,8 @@ input:focus:where([type="text"], [type="email"], ) {
   z-index: -1;
   inset: 0;
   background-image:
-    url(images/bg-tablet-pattern.svg),
-    url(images/bg-tablet-pattern.svg);
+    url(/public/bg-tablet-pattern.svg),
+    url(/public/bg-tablet-pattern.svg);
   background-position: 10.5rem -8rem, 75.5rem -41rem;
   background-repeat: no-repeat;
   opacity: 10%;
