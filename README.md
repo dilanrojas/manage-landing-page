@@ -12,7 +12,7 @@ You can view a live demo of the Accordion FAQ website [here](https://manage-land
 
 To run the project locally, follow these steps:
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine
 
 ```bash
 git clone https://github.com/dilanrojas/manage-landing-page.git
@@ -22,4 +22,10 @@ git clone https://github.com/dilanrojas/manage-landing-page.git
 
 ```bash
 npm install
+```
+
+3. Initialize the project
+
+```bash
+npm run dev
 ```
